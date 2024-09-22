@@ -1,6 +1,9 @@
 # Coffee Sales Analysis
 Conducted an analysis of coffee sales from Jan to Jun 2023 and built a dynamic dashboard in Excel
 
+## Tools:
+- Excel (Excel Formulas, Pivot Tables, Pivot Charts, Slicers, Excel Dashboard)
+
 ## Background:
 - John has recently become a franchise owner at Maven Roasters, a coffee shop chain with three locations in New York City.
 - To better understand purchase behaviour and streamline operations, he has collected transactional data from Jan - Jun 2023.
@@ -11,6 +14,12 @@ Conducted an analysis of coffee sales from Jan to Jun 2023 and built a dynamic d
 2) Explore the data with pivot tables.
 3) Build a dynamic dashboard to visualise patterns and trends.
 
+## Data Cleaning/Preparation
+- Convert unit price to 2dp
+- Add Revenue column (price*quantity), format as currency
+- Add Month and Day of the Week columns using text functions.
+- Add the Hour column based on the transaction time
+  
 ## Insights:
 - Revenue is the highest in **June** in all three locations.
 ### For Lower Manhattan: 
